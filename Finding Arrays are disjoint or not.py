@@ -5,20 +5,10 @@ def fun(l1,l2):
                 return False
     return True
 
-
-
-
 l1=list(map(int,input("Enter array1").split()))
 l2=list(map(int,input("Enter array2").split()))
 if(fun(l1,l2)):
     print("Disjoint")
 
-
-
 else:
-
-
-
-
-
     print("Not disjoint")
